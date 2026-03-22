@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+#aqui tudo que acontece no meu jogo
 from abc import ABC, abstractmethod
 import pygame.image
 
