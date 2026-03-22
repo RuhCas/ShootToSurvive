@@ -4,7 +4,6 @@ import random
 import sys
 
 import pygame
-import self
 from pygame import Surface, Rect
 from pygame.font import Font
 
