@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import pygame
+import pygame.image
 from pygame import Surface, Rect
 from pygame.font import Font
 
@@ -14,9 +14,10 @@ class Menu:
         self.surf = pygame.image.load('./asset/MenuBg.png').convert_alpha()
         self.rect = self.surf.get_rect(left=0, top=0)
 
-    def run(self, ):
+    def run(self):
         menu_option = 0
         pygame.mixer.music.load('./asset/Menu.wav')
+        pygame.mixer_music.set_volume(0.1)
         pygame.mixer.music.play(-1)
         while True:
             #DRAW IMAGES

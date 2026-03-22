@@ -27,10 +27,10 @@ ENTITY_SPEED = {
     'Player1': 3,
     'Player1Shot': 1,
     'Player2': 3,
-    'Player2Shot': 1,
+    'Player2Shot': 3,
     'Enemy1': 1,
     'Enemy1Shot': 5,
-    'Enemy2':1,
+    'Enemy2': 1,
     'Enemy2Shot': 2,
 }
 
@@ -125,8 +125,8 @@ PLAYER_KEY_LEFT = {'Player1': pygame.K_a,
                    'Player2': pygame.K_LEFT}
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_d,
                     'Player2': pygame.K_RIGHT}
-PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
-                    'Player2': pygame.K_LCTRL}
+PLAYER_KEY_SHOOT = {'Player1': pygame.K_LCTRL,
+                    'Player2': pygame.K_RCTRL}
 
 # S
 SPAWN_TIME = 1000 #tempo que novos inimigos aparecem

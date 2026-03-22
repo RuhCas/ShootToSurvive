@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #aqui tudo que acontece no meu jogo
 from abc import ABC, abstractmethod
+
 import pygame.image
 
 from code.const import ENTITY_HEALTH, ENTITY_DAMAGE, ENTITY_SCORE
@@ -20,5 +21,5 @@ class Entity(ABC):
 
 
     @abstractmethod
-    def move(self, ):
+    def move(self):
         pass

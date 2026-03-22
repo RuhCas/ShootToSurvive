@@ -5,7 +5,6 @@ from code.const import ENTITY_SPEED, ENTITY_SHOT_DELAY
 from code.EnemyShot import EnemyShot
 from code.entity import Entity
 
-
 class Enemy(Entity):
     def __init__(self, name: str, position: tuple):
         super().__init__(name, position)

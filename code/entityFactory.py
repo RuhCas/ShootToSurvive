@@ -3,6 +3,7 @@
 from typing import Any
 
 import random
+
 from code.background import Background
 from code.const import WIN_WIDTH, WIN_HEIGHT
 from code.player import Player
@@ -33,6 +34,3 @@ class EntityFactory: #aqui nunca teremos o init
                 return Enemy(name= 'Enemy1', position=(WIN_WIDTH + 10, random.randint(40, WIN_HEIGHT - 40)))
             case 'Enemy2':
                 return Enemy(name= 'Enemy2', position=(WIN_WIDTH + 10, random.randint(40, WIN_HEIGHT - 40)))
-
-class EentityFactory:
-    pass
